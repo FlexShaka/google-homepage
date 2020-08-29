@@ -1,16 +1,5 @@
-*,*::before,*::after{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-@fontface {
-    font-family: Roboto;
-    src: url(https://fonts.googleapis.com/css2?family=Roboto&display=swap>
-    ')
-}
-
-p {
-    font-family: Roboto;
-    font-size: 16 px;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14 px;
 }
