@@ -23,8 +23,16 @@ a {
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    margin-top: 18 px;
-    font-size: 14 px;
+    margin-top: 18px;
+    font-size: 14px;
+}
+.nav-top-left {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   align-items: center;
+   width: 135px;
+
 }
 .nav-top-right {
     display: flex;
@@ -32,7 +40,7 @@ a {
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    width: 180 px;
+    width: 180px;
 }
 .nav-bottom {
     display: flex;
