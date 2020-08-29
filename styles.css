@@ -5,11 +5,14 @@
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14 px;
+    font-size: 14px;
 }
 a {
     text-decoration: none;
     color:black;
+}
+a:hover{
+    text-decoration: underline;
 }
 .main {
     display: flex;
@@ -32,15 +35,19 @@ a {
    justify-content: space-evenly;
    align-items: center;
    width: 135px;
-
 }
 .nav-top-right {
     display: flex;
     flex-direction: row;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    width: 180px;
+    width: 280px;
+}
+#signin {
+    border-radius: 50%;
+    height: 42px;
+    width: 42px;
 }
 .nav-bottom {
     display: flex;
