@@ -105,13 +105,13 @@ main {
     outline: none;
 }
 .google-search:hover {
-    box-shadow: 1px 1px 1px 1px rgb(95, 99, 104);
+    box-shadow: 1px 1px 1px 1px #e4e4e4;
 }
 .buttons {
     padding: 25px;
 }
 .search-button:hover {
-    box-shadow: 1px 1px 1px 1px rgb(95, 99, 104);
+    box-shadow: 1px 1px 1px 1px #e4e4e4;
 }
 .search-button {
     background-color: #f2f2f2;
@@ -127,7 +127,7 @@ main {
     cursor: pointer;
 }
 .lucky-button:hover {
-    box-shadow: 1px 1px 1px 1px rgb(95, 99, 104);
+    box-shadow: 1px 1px 1px 1px #e4e4e4;
 }
 .lucky-button {
     background-color: #f2f2f2;
