@@ -141,3 +141,6 @@ main {
     margin-right: 15px;
     cursor: pointer;
 }
+.complex a {
+    color: blue !important;
+}
