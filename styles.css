@@ -84,7 +84,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    padding: 120px;
+    padding: 80px;
 }
 .google-search {
     display: flex;
@@ -104,8 +104,14 @@ main {
     padding-left: 15px;
     outline: none;
 }
+.google-search:hover {
+    box-shadow: 1px 1px 1px 1px rgb(95, 99, 104);
+}
 .buttons {
     padding: 25px;
+}
+.search-button:hover {
+    box-shadow: 1px 1px 1px 1px rgb(95, 99, 104);
 }
 .search-button {
     background-color: #f2f2f2;
@@ -119,6 +125,9 @@ main {
     text-align: center;
     outline: 0;
     cursor: pointer;
+}
+.lucky-button:hover {
+    box-shadow: 1px 1px 1px 1px rgb(95, 99, 104);
 }
 .lucky-button {
     background-color: #f2f2f2;
@@ -142,5 +151,8 @@ main {
     cursor: pointer;
 }
 .complex a {
-    color: blue !important;
+    color: #1a0dab !important;
+}
+.complex a:visited {
+    color: #609;
 }
